@@ -4,8 +4,8 @@ package
 	
 	public class SpriteSheet extends Sprite
 	{
-		//[Embed(source = "")]
-		//public static const RunSheet:Class;
+		[Embed(source = "Sprite.png")]
+		public static const RunSheet:Class;
 		
 		
 	}

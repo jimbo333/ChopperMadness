@@ -13,10 +13,10 @@ package
 	 */
 	
 	
-	public class Main extends Sprite 
+	public class Copter extends Sprite 
 	{
 		private var animations:Vector.<Animation>;
-		public function Main():void 
+		public function Copter():void 
 		{
 			if (stage) init();
 			else addEventListener(Event.ADDED_TO_STAGE, init);
